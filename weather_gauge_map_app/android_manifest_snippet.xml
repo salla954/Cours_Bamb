@@ -1,0 +1,8 @@
+<!--
+  À FUSIONNER dans android/app/src/main/AndroidManifest.xml
+  Colle cette ligne juste avant la balise <application ...>
+
+  C'est la SEULE permission nécessaire : ni clé API, ni compte de
+  facturation Google ne sont requis avec OpenStreetMap (flutter_map).
+-->
+<uses-permission android:name="android.permission.INTERNET"/>
